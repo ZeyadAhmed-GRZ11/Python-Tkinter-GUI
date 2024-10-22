@@ -15,7 +15,7 @@ def button_clear():
     e.delete(0,END)
 
 def button_add():
-    first_number = e.get
+    first_number = int(e.get())
     global f_num
     global math
     math = "addition"
@@ -23,7 +23,7 @@ def button_add():
     e.delete(0,END)
     
 def button_subtract():
-    first_number = e.get
+    first_number = int(e.get())
     global f_num
     global math
     math = "subtraction"    
